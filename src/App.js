@@ -1,23 +1,56 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="carousel">
+        <div className="group">
+          <div className="card">
+            <img src="/img/Audi.png" alt="audi" />
+          </div>
+          <div className="card">
+            <img src="/img/Bentley.png" alt="bently" />
+          </div>
+          <div className="card">
+            <img src="/img/BMW.png" alt="bmw" />
+          </div>
+          <div className="card">
+            <img src="/img/Jeep.png" alt="jeep" />
+          </div>
+          <div className="card">
+            <img src="/img/Mercedes.png" alt="mercedes" />
+          </div>
+          <div className="card">
+            <img src="/img/Porsche.png" alt="porsche" />
+          </div>
+          <div className="card">
+            <img src="/img/Volkswagen.png" alt="Volkswagen" />
+          </div>
+        </div>{" "}
+        <div className="group" aria-hidden>
+          <div className="card">
+            <img src="/img/Audi.png" alt="audi" />
+          </div>
+          <div className="card">
+            <img src="/img/Bentley.png" alt="bently" />
+          </div>
+          <div className="card">
+            <img src="/img/BMW.png" alt="bmw" />
+          </div>
+          <div className="card">
+            <img src="/img/Jeep.png" alt="jeep" />
+          </div>
+          <div className="card">
+            <img src="/img/Mercedes.png" alt="mercedes" />
+          </div>
+          <div className="card">
+            <img src="/img/Porsche.png" alt="porsche" />
+          </div>
+          <div className="card">
+            <img src="/img/Volkswagen.png" alt="Volkswagen" />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
